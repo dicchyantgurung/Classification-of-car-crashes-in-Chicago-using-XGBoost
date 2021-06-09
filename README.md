@@ -33,7 +33,7 @@ In summary,
 
 ## EDA 2: Analyze control failures to identify opportunities for improvement
 
-![Predictors[(https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/Predictor_plots.png)
+![Predictors](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/Predictor_plots.png)
 
 From the above plots we can make out the following deduction:
 
@@ -62,3 +62,7 @@ From the above plots we can see the following trends in time of crash:
 3. Increase traffic policing during the hours for 4 pm - 6pm and on the weekends.
 
 ## M/L Classifier (XGBoost)
+
+![conf_matrix](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/xbg_confmatx.png)
+
+

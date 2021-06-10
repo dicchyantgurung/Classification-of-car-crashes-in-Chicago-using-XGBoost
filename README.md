@@ -43,7 +43,7 @@ In summary,
 
 From the above plots we can make out the following deduction:
 
-* Most of the car crasshes have occured when the Driver vision was 'Not Obscured' and presumably was driving at a safe speed limit of 30 mph.
+* Most of the car crashes have occured when the Driver vision was 'Not Obscured' and presumably was driving at a safe speed limit of 30 mph.
 * However, having 'No Traffic Control Devices' has contributed the most to the number of car crashes in Chicago. According to this, increasing the number of traffic control devices in the city can lead to a decrease in the number of unintentional crashes. This is also confirmed in the Device Condition plot which shows the highest count when having no controls.
 * The weather condition and lighting condition does not seem to contribute much to the crashes.
 * We can also see most of the crashes occuring where the trafficway type is 'Not Divided'. This means that dividing the roads can prevent more of these crashes.

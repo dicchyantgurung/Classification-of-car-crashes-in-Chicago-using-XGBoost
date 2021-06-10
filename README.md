@@ -35,6 +35,8 @@ In summary,
 * Intentional car crashes concentrated in the Downtown area.
 * Even distribution of Intentional and Unintentional car crashes across the city.
 
+--------------------------------------------------------------------------------------------------------
+
 ## EDA 2: Analyze control failures to identify opportunities for improvement
 
 ![Predictors](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/predictor_plots.png)
@@ -47,6 +49,8 @@ From the above plots we can make out the following deduction:
 * We can also see most of the crashes occuring where the trafficway type is 'Not Divided'. This means that dividing the roads can prevent more of these crashes.
 * Finally, the roadway surface condition and road defect does not seem to contribute much to these crashes either.
 
+--------------------------------------------------------------------------------------------------------
+
 ## EDA 3: Check for trends in the time of crash to relocate resources appropriately
 
 ![Time_of_crash](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/time_of_crash.png)
@@ -57,6 +61,8 @@ From the above plots we can see the following trends in time of crash:
 * For day of the week, we see increased number of accidents during the weekends. However, they do not differ by much from other days. Looking at this we can say that there should be more focus on the crash hour than the crash day as the crashes dont differ much between the days.
 * In terms of crash month, the crashse are pretty consistent all year long. Except for April where we the crashses are the lowest. Currently, we do not have anything to support this so we will assume crashes to be consistent all year long.
 
+--------------------------------------------------------------------------------------------------------
+
 ## Recommendations
 
 1. Increase the number of traffic control devices all across the city.
@@ -65,7 +71,7 @@ From the above plots we can see the following trends in time of crash:
 
 3. Increase traffic policing during the hours for 4 pm - 6pm and on the weekends.
 
-
+--------------------------------------------------------------------------------------------------------
 
 ## M/L Classifier: XGBoost
 
@@ -76,6 +82,8 @@ From the above plots we can see the following trends in time of crash:
 * Test accuracy is :70.5493907566489
 
 * AUC is :0.68 
+
+--------------------------------------------------------------------------------------------------------
 
 ## In conclusion:
 

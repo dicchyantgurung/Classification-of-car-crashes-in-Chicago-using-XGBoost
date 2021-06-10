@@ -10,17 +10,17 @@ The Vehicle Safety Board is looking to reduce the number of accidents in the Cit
 
 Firstly, we will do some data exploration to answer the following three problem statements. We will then use the results to identify areas for improvement and come up with actionable steps that will help reduce the number of accidents in the City of Chicago.
 
-**1. Identify high-density areas of car crash in Chicago**
+>**1. Identify high-density areas of car crash in Chicago**
 
-**2. Analyze control failures to identify opportunities for improvement**
+>**2. Analyze control failures to identify opportunities for improvement**
 
-**3. Check for trends in the time of crash to relocate resources appropriately**
+>**3. Check for trends in the time of crash to relocate resources appropriately**
 
 Furthermore, we will create a classifier to categorize the accidents in two main cateogories for future references:
 
-**1. Unintentional: These are events or instances where the driver was unaware of the possibility of an accident.**
+>**1. Unintentional: These are events or instances where the driver was unaware of the possibility of an accident.**
 
-**2. Intentional: These are events or instances where the driver was fully aware of the possibility of an accident.**
+>**2. Intentional: These are events or instances where the driver was fully aware of the possibility of an accident.**
 
 --------------------------------------------------------------------------------------------------------
 

@@ -80,6 +80,7 @@ From the above plots we can see the following trends in time of crash:
 Confusion Matrix
 -----------------
 |Predicted |     0|      1|     All|
+|----------|------|-------|--------|
 |True      |      |       |        |
 |0         | 27731|  23766|   51497|
 |1         | 11957|  57844|   69801|

@@ -28,12 +28,12 @@ Furthermore, we will create a classifier to categorize the accidents in two main
 
 ![Street_map](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/street_map.png)
 
-From the map above you can see there is a high density of accidents in the downtown area of Chicago. It is also mostly red, which means that most of the accidents in that area are caused due to intent or driver error. However, we can also see blue plots spread all across the map, which suggests that there are good amount of accidents that are caused unintentionally or have an opportunity of improvement. Let's dive into EDA 2 and 3 to investigate this.
+From the map above you can see there is a high density of car crashes in the downtown area of Chicago. It is also mostly red, which means that most of the crashes in that area are caused due to intent or driver error. However, we can also see blue plots spread all across the map, which suggests that there are good amount of crashes that are caused unintentionally or have an opportunity for improvement. Let's dive into EDA 2 and 3 to investigate this.
 
 In summary,
 
-* Intentional accidents concentrated in the Downtown area.
-* Even distribution of Intentional and Unintentional accidents across the city.
+* Intentional car crashes concentrated in the Downtown area.
+* Even distribution of Intentional and Unintentional car crashes across the city.
 
 ## EDA 2: Analyze control failures to identify opportunities for improvement
 
@@ -41,11 +41,11 @@ In summary,
 
 From the above plots we can make out the following deduction:
 
-* Most of the accidents have occured when the Driver vision was 'Not Obscured' and presumably was driving at a safe speed limit of 30 mph.
-* However, having 'No Traffic Control Devices' has contributed the most to the number of accidents in Chicago. According to this, increasing the number of traffic control devices in the city can lead to a decrease in the number of unintentional accidents. This is also confirmed in the Device Condition plot which shows the highest count when having no controls.
-* The weather condition and lighting condition does not seem to contribute much to the accidents.
-* We can also see most of the accidents occuring where the trafficway type is 'Not Divided'. This means that dividing the roads can prevent more of these accidents.
-* Finally, the roadway surface condition and road defect does not seem to cause much of these accidents either.
+* Most of the car crasshes have occured when the Driver vision was 'Not Obscured' and presumably was driving at a safe speed limit of 30 mph.
+* However, having 'No Traffic Control Devices' has contributed the most to the number of car crashes in Chicago. According to this, increasing the number of traffic control devices in the city can lead to a decrease in the number of unintentional crashes. This is also confirmed in the Device Condition plot which shows the highest count when having no controls.
+* The weather condition and lighting condition does not seem to contribute much to the crashes.
+* We can also see most of the crashes occuring where the trafficway type is 'Not Divided'. This means that dividing the roads can prevent more of these crashes.
+* Finally, the roadway surface condition and road defect does not seem to contribute much to these crashes either.
 
 ## EDA 3: Check for trends in the time of crash to relocate resources appropriately
 

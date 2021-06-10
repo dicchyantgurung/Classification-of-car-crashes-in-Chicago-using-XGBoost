@@ -1,4 +1,4 @@
-# Accident Classification using XGBoost for Chicago Car Crash Data
+# Car Crash Classification using XGBoost for City of Chicago 
 
 ## Business Case
 

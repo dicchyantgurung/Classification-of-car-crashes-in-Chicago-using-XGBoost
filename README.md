@@ -16,7 +16,7 @@ Firstly, we will do some data exploration to answer the following three problem 
 
 >**3. Check for trends in the time of crash to relocate resources appropriately**
 
-Furthermore, we will create a classifier to categorize the accidents in two main cateogories for future references:
+Furthermore, we will create a classifier to categorize the accidents in two main cateogories:
 
 >**1. Unintentional: These are events or instances where the driver was unaware of the possibility of an accident.**
 

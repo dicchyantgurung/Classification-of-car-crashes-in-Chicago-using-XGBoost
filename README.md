@@ -71,32 +71,33 @@ From the above plots we can see the following trends in time of crash:
 
 ![conf_matrix](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/xbg_confmatx.png)
 
-Train accuracy is :72.35291207937024
-Test accuracy is :70.5493907566489
+* Train accuracy is :72.35291207937024
 
-AUC is :0.68
+* Test accuracy is :70.5493907566489
+
+* AUC is :0.68
 
 Confusion Matrix
------------------------------------------------------
-Predicted      0      1     All
-True                           
-0          27731  23766   51497
-1          11957  57844   69801
-All        39688  81610  121298
-----------------------------------------------------
+-------------------------------
+|Predicted      0      1     All|
+|True                           |
+|0          27731  23766   51497|
+|1          11957  57844   69801|
+|All        39688  81610  121298|
+
 
 Classification Report
-----------------------------------------------------
-              precision    recall  f1-score   support
+--------------------
+|             precision    recall  f1-score   support|
+|
+|          0       0.70      0.54      0.61     51497|
+|          1       0.71      0.83      0.76     69801|
+|
+|    accuracy                           0.71    121298|
+|   macro avg       0.70      0.68      0.69    121298|
+|weighted avg       0.70      0.71      0.70    121298|
 
-           0       0.70      0.54      0.61     51497
-           1       0.71      0.83      0.76     69801
 
-    accuracy                           0.71    121298
-   macro avg       0.70      0.68      0.69    121298
-weighted avg       0.70      0.71      0.70    121298
-
------------------------------------------------------
 
 In conclusion:
 

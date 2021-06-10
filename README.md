@@ -14,7 +14,7 @@ Firstly, we will do some data exploration to answer the following three problem 
 
 >**2. Analyze control failures to identify opportunities for improvement**
 
->**3. Check for trends in the time of crash to relocate resources appropriately**
+>**3. Check for trends in the time of crash to allocate resources appropriately**
 
 Furthermore, we will create a classifier to categorize the accidents in two main cateogories:
 
@@ -51,7 +51,7 @@ From the above plots we can make out the following deduction:
 
 --------------------------------------------------------------------------------------------------------
 
-## EDA 3: Check for trends in the time of crash to relocate resources appropriately
+## EDA 3: Check for trends in the time of crash to allocate resources appropriately
 
 ![Time_of_crash](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/time_of_crash.png)
 

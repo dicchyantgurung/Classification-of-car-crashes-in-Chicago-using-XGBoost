@@ -78,7 +78,7 @@ From the above plots we can see the following trends in time of crash:
 * AUC is :0.68
 
 Confusion Matrix
--------------------------------
+-----------------
 |Predicted |     0|      1|     All|
 |True      |      |       |        |
 |0         | 27731|  23766|   51497|
@@ -97,7 +97,11 @@ Classification Report
 |   macro avg       0.70      0.68      0.69    121298|
 |weighted avg       0.70      0.71      0.70    121298|
 
-
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 In conclusion:
 

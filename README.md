@@ -1,5 +1,7 @@
 # Chicago Car Crash Classification using XGBoost Classifier 
 
+![Main](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/Chicago.jpg)
+
 ## Business Case
 
 The Vehicle Safety Board is looking to reduce the number of accidents in the City of Chicago. Utilizing the car crash data received from the Chicago Data Portal, we will perform some meaningful EDA and provide recommendations to the Vehicle Safety Board.
@@ -22,7 +24,7 @@ Furthermore, we will create a classifier to categorize the accidents in two main
 
 ## EDA 1: Identify high-density areas of car crash in Chicago
 
-![Street_map](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/Street_map.png)
+![Street_map](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/street_map.png)
 
 From the map above you can see there is a high density of accidents in the downtown area of Chicago. It is also mostly red, which means that most of the accidents in that area are caused due to intent or driver error. However, we can also see blue plots spread all across the map, which suggests that there are good amount of accidents that are caused unintentionally or have an opportunity of improvement. Let's dive into EDA 2 and 3 to investigate this.
 
@@ -33,7 +35,7 @@ In summary,
 
 ## EDA 2: Analyze control failures to identify opportunities for improvement
 
-![Predictors](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/Predictor_plots.png)
+![Predictors](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/predictor_plots.png)
 
 From the above plots we can make out the following deduction:
 
@@ -45,7 +47,7 @@ From the above plots we can make out the following deduction:
 
 ## EDA 3: Check for trends in the time of crash to relocate resources appropriately
 
-![Time_of_crash](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/Time_of_crash.png)
+![Time_of_crash](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/time_of_crash.png)
 
 From the above plots we can see the following trends in time of crash:
     
@@ -61,8 +63,47 @@ From the above plots we can see the following trends in time of crash:
 
 3. Increase traffic policing during the hours for 4 pm - 6pm and on the weekends.
 
+
+
 ## M/L Classifier (XGBoost)
 
 ![conf_matrix](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/xbg_confmatx.png)
+
+Train accuracy is :72.35291207937024
+Test accuracy is :70.5493907566489
+
+AUC is :0.68
+
+Confusion Matrix
+-----------------
+Predicted      0      1     All
+True                           
+0          27731  23766   51497
+1          11957  57844   69801
+All        39688  81610  121298
+
+Classification Report
+----------------------
+              precision    recall  f1-score   support
+
+           0       0.70      0.54      0.61     51497
+           1       0.71      0.83      0.76     69801
+
+    accuracy                           0.71    121298
+   macro avg       0.70      0.68      0.69    121298
+weighted avg       0.70      0.71      0.70    121298
+
+In conclusion:
+
+* The model has an overall accuracy of 71% and an AUC of 0.68.
+
+
+* **Precision** gives us the number of times the model was able to correctly classify each category without the penalty of it being incorrect. Both 'Unintenational' and 'Intentional' catergories were classified about 70% of the time correctly.
+
+
+* **Recall** gives us the exact percentage of each category that the model was able to capture. For '0' or 'Unintentional', the model was only able to only categorize 54% of those present in our data. While for '1' or 'Intenational', the model was able to categorize about 76% of those present in our data. 
+
+
+* **F1-Score** is the harmonic mean between Precision and Recall. It is a better measure for model accuracy since it incorporates both precision and recall scores. In our final model, we have a f1-score of 0.61 and 0.76 for each of our categories respectively. We can use this as a final measure of our model's performance. From the difference, we can also infer that there might be some class imbalances between the two categories.
 
 

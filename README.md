@@ -1,9 +1,7 @@
 # Chicago Car Crash Classification using XGBoost Classifier 
 
-![Main](https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/Chicago.jpg)
-
 <p align="center">
-  <img width="460" height="300" src="https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/Chicago.jpg">
+  <img width="800" height="600" src="https://github.com/dicchyant84/Chicago-car-crash-classification-using-XGBoost-classifier/blob/main/Graphs/Chicago.jpg">
 </p> 
 
 ## Business Case

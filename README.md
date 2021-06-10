@@ -67,7 +67,7 @@ From the above plots we can see the following trends in time of crash:
 
 
 
-## M/L Classifier (XGBoost)
+## M/L Classifier: XGBoost
 
 ![conf_matrix](https://github.com/dicchyant84/Accident-classification-using-XGBoost-for-Chicago-Car-Crash-Data/blob/main/Graphs/xbg_confmatx.png)
 

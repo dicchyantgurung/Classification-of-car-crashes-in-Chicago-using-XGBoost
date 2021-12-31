@@ -10,21 +10,21 @@ The Vehicle Safety Board is looking to reduce the number of accidents in the Cit
 
 Firstly, we will do some data exploration to answer the following three problem statements. We will then use the results to identify areas for improvement and come up with actionable steps that will help reduce the number of accidents in the City of Chicago.
 
->**1. Identify high-density areas of car crash in Chicago**
+**1. Identify high-density areas of car crash in Chicago**
 
->**2. Analyze control failures to identify opportunities for improvement**
+**2. Analyze control failures to identify opportunities for improvement**
 
->**3. Check for trends in the time of crash to relocate resources appropriately**
+**3. Check for trends in the time of crash to relocate resources appropriately**
 
 Secondly, we will create a ML classifier to categorize accidents in four main cateogories:
 
->**1. Injury & Damages over 1,500 dollars**
+**1. Injury & Damages over 1,500 dollars**
 
->**2. Injury & Damages under 1,500 dollars**
+**2. Injury & Damages under 1,500 dollars**
 
->**3. No Injury & Damages over 1,500 dollars**
+**3. No Injury & Damages over 1,500 dollars**
 
->**4. No Injury & Damages under 1,500 dollars**
+**4. No Injury & Damages under 1,500 dollars**
 
 Using these four classes, we will predict what action, event or conditions are most likely to lead to an injury and/or damages in either of the four classes.
 

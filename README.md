@@ -6,7 +6,7 @@
 
 ## Business Case
 
-The Vehicle Safety Board is looking to reduce the number of accidents in the City of Chicago. Utilizing the car crash data received from the Chicago Data Portal, we will perform some meaningful EDA and provide recommendations to the Vehicle Safety Board.
+The Vehicle Safety Board is looking to reduce the number of accidents in the City of Chicago. Utilizing the car crash data available in Chicago Data Portal, we will perform some meaningful EDA and provide recommendations to the Vehicle Safety Board.
 
 Firstly, we will do some data exploration to answer the following three problem statements. We will then use the results to identify areas for improvement and come up with actionable steps that will help reduce the number of accidents in the City of Chicago.
 
@@ -14,13 +14,19 @@ Firstly, we will do some data exploration to answer the following three problem 
 
 >**2. Analyze control failures to identify opportunities for improvement**
 
->**3. Check for trends in the time of crash to allocate resources appropriately**
+>**3. Check for trends in the time of crash to relocate resources appropriately**
 
-Furthermore, we will create a classifier to categorize the accidents in two main cateogories:
+Secondly, we will create a ML classifier to categorize accidents in four main cateogories:
 
->**1. Unintentional: These are events or instances where the driver was unaware of the possibility of an accident.**
+>**1. Injury & Damages over 1,500 dollars**
 
->**2. Intentional: These are events or instances where the driver was fully aware of the possibility of an accident.**
+>**2. Injury & Damages under 1,500 dollars**
+
+>**3. No Injury & Damages over 1,500 dollars**
+
+>**4. No Injury & Damages under 1,500 dollars**
+
+Using these four classes, we will predict what action, event or conditions are most likely to lead to an injury and/or damages in either of the four classes.
 
 --------------------------------------------------------------------------------------------------------
 
